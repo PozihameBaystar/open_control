@@ -1,5 +1,11 @@
 # Copyright 2024 Hirokazu Murayama
 #
+# This code is based on software originally developed by Proxima Technology Inc, TIER IV
+# and licensed under the Apache License, Version 2.0.
+#
+# Significant changes have been made:
+# - Replaced original functions with more simple functions
+#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -11,9 +17,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
-# This code is based on software developed by Proxima Technology Inc, TIER IV
-# and licensed under the Apache License, Version 2.0.
 
 import numpy as np
 from typing import Tuple, Callable
