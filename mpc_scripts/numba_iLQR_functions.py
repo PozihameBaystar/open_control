@@ -22,8 +22,8 @@ import numpy as np
 from typing import Tuple, Callable
 from numba import njit
 
-from . import drive_setting
-from .car_functions import F, F_diff
+import drive_setting
+from car_functions import F, F_diff
 
 """
 まず分かりやすさの為、拡張した状態変数をデフォルトとして扱ってしまう

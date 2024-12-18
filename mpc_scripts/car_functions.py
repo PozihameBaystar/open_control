@@ -16,7 +16,7 @@ import numpy as np
 from typing import Tuple
 from numba import njit
 
-from . import drive_setting
+import drive_setting
 
 
 """

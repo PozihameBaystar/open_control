@@ -22,8 +22,8 @@ import numpy as np
 from typing import Tuple, Callable
 from numba import njit, prange
 
-from . import drive_setting
-from .car_functions import F, F_diff
+import drive_setting
+from car_functions import F, F_diff
 
 """
 MPPIの関数を実装する
