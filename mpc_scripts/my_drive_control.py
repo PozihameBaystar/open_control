@@ -13,10 +13,10 @@
 # limitations under the License.
 
 import numpy as np
-import drive_setting
+from . import drive_setting
 from typing import Tuple, Callable
-from numba_iLQR_functions import backward_pass, forward_pass, rollout, cost_calc
-from numba_MPPI_functions import l_cost_without_input_quad, compute_optimal_input
+from .numba_iLQR_functions import backward_pass, forward_pass, rollout, cost_calc
+from .numba_MPPI_functions import l_cost_without_input_quad, compute_optimal_input
 
 
 """共通のパラメータ"""

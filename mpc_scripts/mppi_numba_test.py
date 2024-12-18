@@ -15,9 +15,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import time
-import drive_setting
-from car_functions import F, F_diff
-from my_drive_control import iLQR_drive, MPPI_drive
+from . import drive_setting
+from .car_functions import F, F_diff
+from .my_drive_control import iLQR_drive, MPPI_drive
 
 actual_state_dim = drive_setting.actual_state_dim
 actual_input_dim = drive_setting.actual_input_dim
